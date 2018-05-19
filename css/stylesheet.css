@@ -1,0 +1,89 @@
+html {
+    background-color: #b60609;
+}
+
+body {
+    font-family: "Raleway-Roboto", Raleway, Roboto, sans-serif;
+    font-size: 100%;
+    line-height: 1.7em;
+    color: #000000;
+}
+
+#container {
+    background-color: #b60609;
+}
+
+#top_row {
+    border-style: solid;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 2px;
+}
+
+#logo {
+    width: 10%;
+}
+
+nav {
+    display: inline-block;
+    width: 54%;
+    height: 40%;
+    margin-top: 2%;
+    margin-right: 36%;
+    float: right;
+}
+
+nav a #login {
+    margin-left: 15%;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 200%;
+    font-weight: 400;
+    color: #000000;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: -1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+nav a.selected {
+    background: #778899;
+}
+
+nav a:hover {
+    background: #2f4f4e;
+}
+
+nav a #signup {
+
+}
+
+#standings {
+    margin-left: 18.5%;
+    line-height: 70%;
+}
+
+#standings tbody tr th {
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+}
+
+footer {
+    border-color: #000000;
+    border-style: solid;
+    border-top-width: 2px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+footer h1 {
+    font-size: 100%;
+    text-align: center;
+}
